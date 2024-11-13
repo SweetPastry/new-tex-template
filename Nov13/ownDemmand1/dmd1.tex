@@ -1,0 +1,13 @@
+\usepackage{xparse}     % 提供新的定义命令 \NewDocumentCommand
+\usepackage{wrapfig}    % 在文本段落中环绕图片或表格
+\usepackage[shortlabels]{enumitem}  % 自定义列表环境，此处可选参数简化自定义标签格式的语法
+\usepackage{listings}   % 插入和高亮显示源代码
+\usetikzlibrary{backgrounds}
+\usetikzlibrary{arrows,shapes}
+\usetikzlibrary{tikzmark}
+\usetikzlibrary{calc}
+\usepackage{tcolorbox}  % 创建彩色框
+
+
+\newcommand{\hlmath}[2]{\colorbox[#1]{\displaystyle #2}}
+\newcommand{\hltext}[2]{\colorbox[#1]{#2}}
