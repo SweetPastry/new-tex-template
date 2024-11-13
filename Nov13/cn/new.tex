@@ -1,0 +1,105 @@
+% 请使用最主流工具链
+% xelatex -> biber -> xelatex*2
+% 请不要使用 bibtex，这个文献管理工具过时了
+%\documentclass[twocolumn]{article}
+
+% ctexart 文件类型是高度集成的， 自动导入 ctex （此宏包涵盖 xeCJK）， fontspec （调用计算机本地字体），zhnumber （中文数字）, graphicx, array, amsmath, amssymb, amsfonts. color, hyperref, indentfirst, fancyhdr (页眉页脚)，geometry （自动调节页边距符合中文习惯）
+% 使用 ctexart 请注释以上文档类型，取消以下命令的注释
+\documentclass[twocolumn]{ctexart}
+
+% 页面设置，对排版的精确要求，因为严格的检查机制常常引起警告
+%\usepackage[
+	% a4paper or b5 paper
+	% margin=xcm 同时设置四个方向或 left=， right=， top=， bottom=
+	% inner=2.5 outer=，设置装订测和外侧
+	% headheight=15pt, headsep=20pt, footskip=30pt 页眉高度，正文和页脚之间的距离，正文和页脚之间的距离
+	% portrait 纵向，默认，landscape横向
+%]{geometry}
+
+
+
+% 调用计算机字体
+%\usepackage{fontspec}
+%\setmainfont{Times New Romance}	% 设置英文正文为新罗马，默认为 Computer Modern
+
+% 数理符号环境
+\usepackage{amsmath, amssymb, amsfonts, physics}
+
+% 数学字体
+%\usepackage{unicode-math}
+%\setmathfont{Latin Modern Math}	% 默认是拉丁体，Computer Modern字体系列拓展
+%\setmainfont{TeX Gyre Termes Math}	% 一般配合新罗马
+%\setmainfont{XITS Math}	% 一般配合新罗马
+
+
+% 一级节标题样式居中 （APA 样式，二级左对齐）
+% 默认情况下为左对齐 (IEEE, ACM 等)， 采用左对齐注释以下块
+\usepackage{titlesec}
+\titleformat{\section}[block]
+{\centering\bfseries\Large}
+{\thesection}{1em}{}
+
+
+% graphicx 包是比 graphics 包更好用的图像处理宏包，请不要使用后者
+\usepackage{graphicx}
+
+% float 提供 [H] 等参数精准调节浮动提， caption 可以给浮动体命名，multirow 为表格创建跨多行单元格
+%\usepackage{float, caption, multirow}
+
+% tabularx 环境是 tabular 环境 （latex 内置） 的增强版，但并不能完全替代 tabular
+\usepackage{tabularx}
+
+% 提供 strip 环境，用来跳过空白
+\usepackage{cuted}
+
+% 画图
+\usepackage{tikz}
+
+% 数学环境下的表格矩阵等
+\usepackage{array}
+
+% final：插入整页 pdf
+\usepackage[final]{pdfpages}
+
+% 除了 apa 风格， 还可以有 
+\usepackage[style=ieee, backend=biber]{biblatex}
+\addbibresource{ref.bib}
+% hyperref 宏包建议最后加载
+\usepackage[colorlinks,urlcolor=blue,linkcolor=blue,anchorcolor=blue,citecolor=blue]{hyperref}
+
+
+\title{\bf{
+		这里是标题
+}}
+\author{
+	作者姓名
+	\quad
+\textit{\quad
+	学校单位
+}}
+\date{
+	\today
+}
+
+\begin{document}
+	\maketitle
+	\begin{strip}
+		\noindent\textbf{摘要}.
+			\small{\songti
+				这里是摘要.
+		}\leavevmode
+	\end{strip}
+	
+	\section{导言}
+	这里是导言\cite{Lin2024}%\parencite{Lin2024}.
+	\begin{equation}
+		E=mc^2.
+	\end{equation}
+	
+	
+	% 可以进入单栏模式打印参考文献，双栏使用 APA 风格会有警告
+	%\onecolumn
+	% 列举所有没有在正文中明确引用的参考文献
+	\nocite{*}
+	\printbibliography[title=参考文献]
+\end{document}

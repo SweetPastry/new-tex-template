@@ -1,0 +1,189 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{Lin2024}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=0f52d10e3c9586ef2dffc8905c582caf}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Zhicheng},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{0f52d10e3c9586ef2dffc8905c582caf}
+      \strng{fullhash}{0f52d10e3c9586ef2dffc8905c582caf}
+      \strng{fullhashraw}{0f52d10e3c9586ef2dffc8905c582caf}
+      \strng{bibnamehash}{0f52d10e3c9586ef2dffc8905c582caf}
+      \strng{authorbibnamehash}{0f52d10e3c9586ef2dffc8905c582caf}
+      \strng{authornamehash}{0f52d10e3c9586ef2dffc8905c582caf}
+      \strng{authorfullhash}{0f52d10e3c9586ef2dffc8905c582caf}
+      \strng{authorfullhashraw}{0f52d10e3c9586ef2dffc8905c582caf}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Biomedical Engineering}
+      \field{title}{Techniques for supercharging academic writing with generative AI}
+      \field{year}{2024}
+    \endentry
+    \entry{Crimaldi2023}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=e146c1b40fc18efb8cd18f47a4016aaa}{%
+           family={Crimaldi},
+           familyi={C\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=acbbdc6321b5e9f3bd8adc55b86f028b}{%
+           family={Leonelli},
+           familyi={L\bibinitperiod},
+           given={Manuele},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{43a62c03c081a2a88ff4c09c57866c72}
+      \strng{fullhash}{43a62c03c081a2a88ff4c09c57866c72}
+      \strng{fullhashraw}{43a62c03c081a2a88ff4c09c57866c72}
+      \strng{bibnamehash}{43a62c03c081a2a88ff4c09c57866c72}
+      \strng{authorbibnamehash}{43a62c03c081a2a88ff4c09c57866c72}
+      \strng{authornamehash}{43a62c03c081a2a88ff4c09c57866c72}
+      \strng{authorfullhash}{43a62c03c081a2a88ff4c09c57866c72}
+      \strng{authorfullhashraw}{43a62c03c081a2a88ff4c09c57866c72}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv:2306.01795v1}
+      \field{title}{AI and the Creative Realm: A Short Review of Current and Future Applications}
+      \field{year}{2023}
+      \true{nocite}
+    \endentry
+    \entry{Wang2024}{article}{}{}
+      \name{author}{11}{}{%
+        {{hash=3ba30dd8f330c6e35c8cf88f12b318b9}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Haonan},
+           giveni={H\bibinitperiod}}}%
+        {{hash=1b868d50048a635fa27ffa744323fa41}{%
+           family={Zou},
+           familyi={Z\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+        {{hash=92b7004388a4c37df79d45c3fcbac1a4}{%
+           family={Mozer},
+           familyi={M\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=eb6a43771a55bde951c0119ac5c7ad13}{%
+           family={Goyal},
+           familyi={G\bibinitperiod},
+           given={Anirudh},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ef69d4db3429fa2ccff2c8ab6d0ff113}{%
+           family={Lamb},
+           familyi={L\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ed5193105a206dd081f3b3722c010a49}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Linjun},
+           giveni={L\bibinitperiod}}}%
+        {{hash=87ddac44623b8bb57fc24211977df985}{%
+           family={Su},
+           familyi={S\bibinitperiod},
+           given={Weijie\bibnamedelima J.},
+           giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=a45c80b8d64f47cb2ab350624a973a1c}{%
+           family={Deng},
+           familyi={D\bibinitperiod},
+           given={Zhun},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=7655c1316efacb23b8ca3e5332c12ac8}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={Michael\bibnamedelima Qizhe},
+           giveni={M\bibinitperiod\bibinitdelim Q\bibinitperiod}}}%
+        {{hash=84b9cd5ff1b1942af452cb0056bdb0df}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Hannah},
+           giveni={H\bibinitperiod}}}%
+        {{hash=e6710bfa0fd4c3d0c8e305c8035df221}{%
+           family={Kawaguchi},
+           familyi={K\bibinitperiod},
+           given={Kenji},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{4d983305272c29f7c734a30dba3a20ff}
+      \strng{fullhash}{d9d340b28c7c99c511209303074079ed}
+      \strng{fullhashraw}{d9d340b28c7c99c511209303074079ed}
+      \strng{bibnamehash}{4d983305272c29f7c734a30dba3a20ff}
+      \strng{authorbibnamehash}{4d983305272c29f7c734a30dba3a20ff}
+      \strng{authornamehash}{4d983305272c29f7c734a30dba3a20ff}
+      \strng{authorfullhash}{d9d340b28c7c99c511209303074079ed}
+      \strng{authorfullhashraw}{d9d340b28c7c99c511209303074079ed}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv:2401.01623v4}
+      \field{title}{Can AI Be as Creative as Humans?}
+      \field{year}{2024}
+      \true{nocite}
+    \endentry
+    \entry{Sun2023}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=87ba5fc941accb90fa8cd9acad383ec7}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Ya-Hong},
+           giveni={Y\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=e370bbef075aa0a774c24c1a6c93c672}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Yan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=8b117b4cdebfcc19f3af7232c9714b7b}{%
+           family={YU},
+           familyi={Y\bibinitperiod},
+           given={Dang-Hui},
+           giveni={D\bibinithyphendelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{e3911b74f545bc739c4c97070a0706a0}
+      \strng{fullhash}{565fcf38231edc298660d504093ca555}
+      \strng{fullhashraw}{565fcf38231edc298660d504093ca555}
+      \strng{bibnamehash}{565fcf38231edc298660d504093ca555}
+      \strng{authorbibnamehash}{565fcf38231edc298660d504093ca555}
+      \strng{authornamehash}{e3911b74f545bc739c4c97070a0706a0}
+      \strng{authorfullhash}{565fcf38231edc298660d504093ca555}
+      \strng{authorfullhashraw}{565fcf38231edc298660d504093ca555}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Chinese Journal of Scientific and Technical Periodicals}
+      \field{title}{A Review of Responsibilities and Risk Analysis Related to Generative AI Works in the Academic Publishing Industry}
+      \field{year}{2023}
+      \true{nocite}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,0 +1,56 @@
+\documentclass[twocolumn]{ctexart}
+\usepackage{amsmath, amssymb, amsfonts, physics}
+
+\usepackage{titlesec}
+\titleformat{\section}[block]
+{\centering\bfseries\Large}
+{\thesection}{1em}{}
+
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{cuted}
+\usepackage{tikz}
+\usepackage{array}
+\usepackage[final]{pdfpages}
+
+\usepackage[style=ieee, backend=biber]{biblatex}
+\addbibresource{ref.bib}
+\usepackage[colorlinks,urlcolor=blue,linkcolor=blue,anchorcolor=blue,citecolor=blue]{hyperref}
+
+
+
+\title{\bf{
+		这里是标题
+}}
+\author{
+	作者姓名
+	\quad
+\textit{\quad
+	学校单位
+}}
+\date{
+	\today
+}
+
+
+
+\begin{document}
+	\maketitle
+	\begin{strip}
+		\noindent\textbf{摘要}.
+			\small{\songti
+				这里是摘要.
+		}\leavevmode
+	\end{strip}
+	
+
+	\section{导言}
+	这里是导言\cite{Lin2024}%\parencite{Lin2024}.
+	\begin{equation}
+		E=mc^2.
+	\end{equation}
+	
+	
+	\nocite{*}
+	\printbibliography[title=参考文献]
+\end{document}
